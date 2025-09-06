@@ -47,7 +47,7 @@ h2{
 }
 
 li, ul{
-    text-align: justify;
+    text-align: center;
 }
 
 figure{
@@ -79,11 +79,7 @@ p{
 }
 
 head{
-    /* Seus estilos de cor, fonte, etc. estão aqui */
-
-/* ... E no final do arquivo, adicione as regras responsivas: */
-
-@media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
     .videos-container {
         display: block; 
         text-align: center;
@@ -98,6 +94,6 @@ head{
     img {
         max-width: 100%;
         height: auto;
-}
+    }
 }
 }
