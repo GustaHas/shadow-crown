@@ -77,3 +77,21 @@ p,li{
 p{
     text-align: justify, center;
 }
+
+head{
+    /* Seus estilos de cor, fonte, etc. estão aqui */
+
+/* ... E no final do arquivo, adicione as regras responsivas: */
+
+@media screen and (max-width: 768px) {
+    .videos-container {
+        display: block; 
+        text-align: center;
+    }
+
+    .videos-container iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+}
