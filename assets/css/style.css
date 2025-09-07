@@ -55,7 +55,7 @@ figure{
 }
 
 img{
-    width: 40%;    
+    width: 40%;
 }
 
 
@@ -92,9 +92,13 @@ head{
 
     /* Regra para as imagens com !important */
     img {
-        max-width: 100% !important;
+        max-width: 50% !important;
         height: auto !important;
     }
 }
+}
+
+a{
+    color: #e07c2f;
 }
 
