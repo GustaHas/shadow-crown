@@ -90,10 +90,11 @@ head{
         height: auto;
     }
 
-    /* Regra para as imagens */
+    /* Regra para as imagens com !important */
     img {
-        max-width: 100%;
-        height: auto;
+        max-width: 100% !important;
+        height: auto !important;
     }
 }
 }
+
